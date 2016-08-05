@@ -1,0 +1,231 @@
+.main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: url(../images/bg.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+.wei {
+    position: fixed;
+    display: block;
+    z-index: 99;
+    bottom: 20%;
+    right: 0;
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: url(../images/wei.png) no-repeat center;
+    background-size: 100%;
+}
+
+.nav {
+    z-index: 1;
+    position: relative;
+    align-self: flex-start;
+    top: 40px;
+    left: 20px;
+    width: 120px;
+    height: 30px;
+    background: url(../images/banner.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.banner-title {
+    margin-top: 40px;
+    width: 236px;
+    height: 186px;
+    background: url(../images/banner-title.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.banner {
+    z-index: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+
+.slogan {
+    width: 100%;
+    height: 60px;
+    margin: 32px 0 10px 0;
+    text-align: center;
+    background: url(../images/slogan.png) no-repeat center;
+}
+
+.banner-img {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+
+.banner-pro {
+    z-index: 1;
+    width: 90%;
+    height: 160px;
+    background: url(../images/banner-pro.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.banner-bg {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    height: 200px;
+    background: url(../images/banner-bg.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.step {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    /*height: 1340px;*/
+    /*background-color: #ccc;*/
+}
+
+.step-title {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background: url(../images/step-title.png) no-repeat center;
+    background-size: 40%;
+}
+
+.step-img {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.step-img div {
+    width: 160px;
+    height: 300px;
+    margin: 0 10px;
+}
+
+.step-1-1 {
+    background: url(../images/step-1-1.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.step-1-2 {
+    background: url(../images/step-1-2.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.step-2-1 {
+    background: url(../images/step-2-1.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.step-2-2 {
+    background: url(../images/step-2-2.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.step-3-1 {
+    background: url(../images/step-3-1.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.rule {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.rule h3 {
+    width: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.rule p {
+    line-height: 28px;
+    padding: 0 5%;
+}
+
+.rule p span {
+    position: relative;
+    display: block;
+    left: 10%;
+    width: 90%;
+    font-size: 0.8rem;
+}
+
+.fish {
+    position: absolute;
+    width: 100%;
+    align-self: flex-start;
+}
+
+.fish1 {
+    width: 100px;
+    height: 100px;
+    top: 530px;
+    left: 0;
+    background: url(../images/fish1.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.fish2 {
+    width: 100px;
+    height: 100px;
+    top: 700px;
+    left: 50%;
+    background: url(../images/fish2.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.fish3 {
+    width: 100px;
+    height: 100px;
+    top: 1100px;
+    right: 0;
+    background: url(../images/fish3.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.fish4 {
+    width: 100px;
+    height: 100px;
+    top: 1500px;
+    right: 0;
+    background: url(../images/fish4.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.fish5 {
+    width: 100px;
+    height: 100px;
+    top: 1400px;
+    left: 0;
+    background: url(../images/fish5.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.fish6 {
+    width: 100px;
+    height: 100px;
+    top: 1600px;
+    left: 10%;
+    background: url(../images/fish6.png) no-repeat 0 0;
+    background-size: 100%;
+}
