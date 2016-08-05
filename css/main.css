@@ -150,19 +150,19 @@
     color: #fff;
 }
 
-.rule h3 {
+.rule-title {
     width: 100%;
     font-size: 20px;
     line-height: 40px;
     text-align: center;
 }
 
-.rule p {
+.rule-txt {
     line-height: 28px;
     padding: 0 5%;
 }
 
-.rule p span {
+.rule-txt span {
     position: relative;
     display: block;
     left: 10%;
