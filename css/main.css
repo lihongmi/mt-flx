@@ -174,13 +174,17 @@
     position: absolute;
     top: 0;
     width: 100%;
-    align-self: flex-start;
+    height: 1920px;
+}
+
+.fish div {
+    position: absolute;
 }
 
 .fish1 {
     width: 100px;
     height: 100px;
-    top: 530px;
+    top: 28%;
     left: 0;
     background: url(../images/fish1.png) no-repeat 0 0;
     background-size: 100%;
@@ -189,7 +193,7 @@
 .fish2 {
     width: 100px;
     height: 100px;
-    top: 700px;
+    top: 60%;
     left: 50%;
     background: url(../images/fish2.png) no-repeat 0 0;
     background-size: 100%;
@@ -198,7 +202,7 @@
 .fish3 {
     width: 100px;
     height: 100px;
-    top: 1100px;
+    top: 70%;
     right: 0;
     background: url(../images/fish3.png) no-repeat 0 0;
     background-size: 100%;
@@ -207,7 +211,7 @@
 .fish4 {
     width: 100px;
     height: 100px;
-    top: 1500px;
+    top: 80%;
     right: 0;
     background: url(../images/fish4.png) no-repeat 0 0;
     background-size: 100%;
@@ -216,7 +220,7 @@
 .fish5 {
     width: 100px;
     height: 100px;
-    top: 1400px;
+    top: 30%;
     left: 0;
     background: url(../images/fish5.png) no-repeat 0 0;
     background-size: 100%;
@@ -225,7 +229,7 @@
 .fish6 {
     width: 100px;
     height: 100px;
-    top: 1600px;
+    top: 58%;
     left: 10%;
     background: url(../images/fish6.png) no-repeat 0 0;
     background-size: 100%;
