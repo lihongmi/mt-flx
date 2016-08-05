@@ -9,6 +9,29 @@
     background-size: cover;
 }
 
+.swipe-up {
+    z-index: 3;
+    position: absolute;
+    display: block;
+    width: 70%;
+    height: 50px;
+    bottom: 20px;
+    background: url(../images/swipe-up.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.top {
+    z-index: 3;
+    position: fixed;
+    display: none;
+    width: 40px;
+    height: 40px;
+    bottom: 0px;
+    right: 0px;
+    background: url(../images/top.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
 .wei {
     position: fixed;
     display: block;
@@ -101,6 +124,7 @@
     height: 60px;
     background: url(../images/step-title.png) no-repeat center;
     background-size: 40%;
+    margin-top: 40px;
 }
 
 .step-img {
