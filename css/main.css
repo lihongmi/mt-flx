@@ -13,10 +13,13 @@
     z-index: 3;
     position: absolute;
     display: block;
-    align-items: center;
+    left: 0;
+    right: 0;
+    top: 80%;
+    bottom: 0;
+    margin: auto;
     width: 70%;
     height: 50px;
-    bottom: 20px;
     background: url(../images/swipe-up.png) no-repeat 0 0;
     background-size: 100%;
 }
