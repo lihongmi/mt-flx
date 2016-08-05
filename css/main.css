@@ -176,10 +176,6 @@
     align-self: flex-start;
 }
 
-.fish div {
-    position: absolute;
-}
-
 .fish1 {
     width: 100px;
     height: 100px;
