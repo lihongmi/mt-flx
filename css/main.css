@@ -13,6 +13,7 @@
     z-index: 3;
     position: absolute;
     display: block;
+    align-items: center;
     width: 70%;
     height: 50px;
     bottom: 20px;
