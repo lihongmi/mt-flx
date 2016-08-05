@@ -16,7 +16,8 @@ body {
 .wei {
     z-index: 99;
     position: absolute;
-    align-self: flex-end;
+    right: 0;
+    /*align-self: flex-end;*/
     display: block;
     top: 460px;
     width: 80px;
@@ -115,8 +116,8 @@ body {
 }
 
 .step-img div {
-    width: 130px;
-    height: 260px;
+    width: 160px;
+    height: 300px;
     /*width: 10rem;
     height: 18rem;*/
     margin: 0 10px;
